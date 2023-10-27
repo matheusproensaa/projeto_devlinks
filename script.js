@@ -19,9 +19,9 @@ htlm.classList.toogle('light')
   if (html.classList.contains("light")) {
     // se estiver light mode, add imagem light
 
-    img.setAttribute("src", "./assets/avatar_lightmode.png")
+    img.setAttribute("src", "./assets/avatar_light.png")
   } else {
     //se estiver sem light, manter a imagem normal
-    img.setAttribute("src", "./assets/avatar_darkmode.png")
+    img.setAttribute("src", "./assets/avatar.png")
   }
 }
